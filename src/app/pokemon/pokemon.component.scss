@@ -1,0 +1,34 @@
+ion-item {
+  --padding-start: 0;
+  --inner-padding-end: 0;
+}
+
+ion-label {
+  margin: 12px;
+}
+
+ion-item h2 {
+  font-weight: 600;
+  margin: 0;
+}
+
+ion-item p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 95%;
+}
+
+.image {
+  display: block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  align-self: start;
+  margin: 16px 10px 16px 16px;
+}
+
+ion-footer ion-title {
+  font-size: 11px;
+  font-weight: normal;
+}

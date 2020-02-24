@@ -5,14 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
-import { MessageComponentModule } from '../message/message.module';
+import { PokemonComponentModule } from '../pokemon/pokemon.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    MessageComponentModule,
+    PokemonComponentModule,
     RouterModule.forChild([
       {
         path: '',

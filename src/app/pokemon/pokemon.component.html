@@ -1,0 +1,13 @@
+<ion-item *ngIf="pokemon" [routerLink]="'/pokemon/' + pokemon.id" [detail]="false">
+  <div > 
+    <ion-avatar>
+      <img src="{{ pokemon.imageURL }}">
+    </ion-avatar>
+  </div>
+ 
+  <ion-label class="ion-text-wrap">
+    <h2> {{ pokemon.name }} </h2>
+    <h3>#00{{ pokemon.num}}</h3>
+  </ion-label>
+  <ion-icon slot="end" role="img" name="chevron-forward-outline"></ion-icon>
+</ion-item>
