@@ -1,0 +1,3 @@
+# pokedex
+
+Creado con Ionic
